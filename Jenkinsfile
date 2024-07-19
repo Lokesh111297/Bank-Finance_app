@@ -6,7 +6,7 @@ pipeline {
         GIT_BRANCH = 'main'
         DOCKER_IMAGE = 'lokeshshetty/banking_app'
         DOCKER_TAG = "${BUILD_NUMBER}"  // Use the Jenkins build number as the Docker tag
-        AWS_REGION = 'us-east-1'
+        AWS_REGION = 'us-east-2'
         ANSIBLE_PLAYBOOK = 'ansible-playbook.yml'
         CREDENTIALS_ID = 'github_pat' // Your credential ID here
         registryCredential = 'docker_pat'
