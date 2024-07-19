@@ -10,7 +10,7 @@ pipeline {
         ANSIBLE_PLAYBOOK = 'ansible-playbook.yml'
         CREDENTIALS_ID = 'github_pat' // Your credential ID here
         registryCredential = 'docker_pat'
-        TEST_SERVER_IP = '10.0.101.85'  // Replace with your test server IP
+        TEST_SERVER_IP = '10.0.101.108'  // Replace with your test server IP
         SSH_KEY_CREDENTIALS_ID = 'ssh_key'  // Your SSH key credential ID
     }
 
