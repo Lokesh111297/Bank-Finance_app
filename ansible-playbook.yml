@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   vars:
-    docker_image: "lokeshshetty/Banking_App"
+    docker_image: "lokeshshetty/banking_app"
     docker_tag: "${BUILD_NUMBER}" 
     aws_region: "us-east-1"
 

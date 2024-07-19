@@ -4,7 +4,7 @@ pipeline {
     environment {
         GIT_REPO = 'https://github.com/Lokesh111297/Banking-finance-project.git'
         GIT_BRANCH = 'main'
-        DOCKER_IMAGE = 'lokeshshetty/Banking_App'
+        DOCKER_IMAGE = 'lokeshshetty/banking_app'
         DOCKER_TAG = "${BUILD_NUMBER}"  // Use the Jenkins build number as the Docker tag
         AWS_REGION = 'us-east-1'
         ANSIBLE_PLAYBOOK = 'ansible-playbook.yml'
