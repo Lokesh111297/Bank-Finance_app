@@ -5,7 +5,7 @@
   vars:
     docker_image: "lokeshshetty/banking_app"
     docker_tag: "${BUILD_NUMBER}" 
-    aws_region: "us-east-1"
+    aws_region: "us-east-2"
 
   tasks:
     - name: Stop and remove old container if exists
